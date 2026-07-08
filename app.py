@@ -38,7 +38,7 @@ if st.button("Kirim ke AI"):
                 response = model.generate_content(pertanyaan)
                 
                 # Menampilkan jawaban di website
-                st.success("Selesai!")
+                
                 st.write(response.text)
             except Exception as e:
                 # Jika masih ada error, akan muncul di sini agar mudah dicek
